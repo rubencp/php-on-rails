@@ -1,0 +1,3 @@
+for i in {1..50}; do curl -s -w "%{time_total}\n" -o /dev/null http://localhost:81/phails; done
+
+for i in {1..50}; do curl -s -w "%{time_total}\n" -o /dev/null http://localhost:3000; done
