@@ -1,18 +1,25 @@
 <?php 
 
+  $SomeVariable ="It Works (Variable ".$action.")";
+  $Executing =$controller."#".$action;
+  $layout="application";
+
 switch ($action) {
-    case "index":
-        echo "index.html.php";
+    case "index":      
+         $SomeVariable .= " indice";
         break;
     case "edit":
-        echo "edit.html";
+         $SomeVariable .= " editar";
         break;
     case "delete":
-        echo "delete.html";
+         $SomeVariable .= " remove";
         break;
     case "new":
-        echo "new.html";
+        $SomeVariable .= " nuevo";
         break;        
 }
+
+
+$content2render = 'app/views/'.$controller.'/'.$action.'.html.php';
 
 ?>
