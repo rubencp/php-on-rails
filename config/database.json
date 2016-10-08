@@ -1,0 +1,23 @@
+{
+ "development" :
+	{
+	"servername" : "localhost",
+	"username" : "kb_comments",
+	"password" : "32V0A10",
+	"dbname" : "kundenbereich_comments"
+	},
+ "production" :
+	{
+	"servername" : "localhost",
+	"username" : "kb_comments",
+	"password" : "32V0A10",
+	"dbname" : "kundenbereich_comments_prod"
+	},
+ "test" :	
+	{
+	"servername" : "localhost",
+	"username" : "kb_comments",
+	"password" : "32V0A10",
+	"dbname" : "kundenbereich_comments_test"
+	}
+}
