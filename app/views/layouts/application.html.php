@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>PHP-On-Rails 101 Template</title>
     <!-- Bootstrap -->
-    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/phails/public/css/bootstrap.min.css" rel="stylesheet">
 
   </head>
   <body>
@@ -18,13 +18,13 @@
 
   <div class="jumbotron">
       <div class="row">
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-12 col-sm-3">
           <?php echo $Executing; ?>
         </div>
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-12 col-sm-6">
           <?php include $content2render; ?>
         </div>
-        <div class="col-xs-12 col-sm-4">
+        <div class="col-xs-12 col-sm-3">
           <?php echo   $SomeVariable;  ?>
         </div>
       </div>
