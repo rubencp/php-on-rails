@@ -1,6 +1,5 @@
 <?php 
 
-  $SomeVariable ="It Works (Variable ".$action.")";
   $Executing =$controller."#".$action;
   $layout="application";
 

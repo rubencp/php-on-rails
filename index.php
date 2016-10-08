@@ -3,7 +3,9 @@
 include 'config/boot.php';
 include 'config/environments/'.$PHP_ENV.'.php';
 #load_application
+
 #load initializers
+include 'config/initializers/datasources.php';
 
 #Fetch from URL [:controller,:action,:parameters]
 include 'config/routes.php';

@@ -1,4 +1,6 @@
 
-<h1>You are Riding on Phails!</h1>
+<h1>You are Riding on Php-ails!</h1>
 
-<p>a PHP Framework similar to Rails</p>
+<p>a PHP Rails-like Framework</p>
+
+

@@ -1,12 +1,12 @@
 <?php  $Phails_routes_draw = array( #do
     
-    "get", 'cont1/index' => 'application#index',
-    "get", 'cont1/edit' => 'application#show',
+    "get", 'cont1'          => 'application#index',
+    "get", 'cont1/show'     => 'application#show',
     "post",'something/edit' => 'application#edit',
     
     "get",  'something/edit' => 'application#index',
-    "get",  'something/a' => 'application#show',
-    "post", 'something/b' => 'application#edit'
+    "get",  'something/show' => 'application#show',
+    "post", 'something/edit' => 'application#edit'
     
 #end
 );
@@ -35,9 +35,5 @@ list($controller,$action,$params) = ParseRoutes($Phails_routes_draw);
 
   	return array($ctrl,$act,$param);
   }
-
- 
-$product_str = $_GET['product'];
-$section = $_GET['section'];
 
 ?>

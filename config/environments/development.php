@@ -13,10 +13,10 @@ error_reporting(E_ALL & ~E_NOTICE);	// Report all errors except E_NOTICE
 
 $live_server = false;
 
-$website_path = "http://".$_SERVER['SERVER_NAME'].":81";
+$website_path = "http://".$_SERVER['SERVER_NAME'].":80";
 $file_root_path = "/projects/website/inside";
 
-$installed_path = "phails/NeuerOrdner";
+$installed_path = "somefolder";
 
 
 ?>
